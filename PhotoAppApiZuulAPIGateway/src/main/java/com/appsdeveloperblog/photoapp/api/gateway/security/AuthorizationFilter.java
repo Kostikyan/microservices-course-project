@@ -25,7 +25,6 @@ public class AuthorizationFilter extends BasicAuthenticationFilter {
         this.environment = environment;
     }
     
-    
     @Override
     protected void doFilterInternal(HttpServletRequest req,
             HttpServletResponse res,

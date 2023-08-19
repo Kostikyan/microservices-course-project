@@ -8,9 +8,9 @@ package com.appsdeveloperblog.photoapp.api.albums.data;
 public class AlbumEntity {
     private long id;
     private String albumId;
-    private String userId; 
+    private String userId;
     private String name;
-    private String description; 
+    private String description;
 
     /**
      * @return the id
@@ -81,6 +81,6 @@ public class AlbumEntity {
     public void setDescription(String description) {
         this.description = description;
     }
-    
-    
+
+
 }
